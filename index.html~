@@ -1,6 +1,4 @@
-<!DOCTYPE HTML>
-<META charset=UTF-8>
-<TITLE>Prefix free:Break free from CSS vendor prefix hell!</TITLE>
+<!DOCTYPE HTML><META charset=UTF-8><TITLE>Prefix free:Break free from CSS vendor prefix hell!</TITLE>
 <LINK rel=stylesheet href=css/style.css>
 <LINK rel=stylesheet href=css/print.css media=print>
 <LINK rel="shortcut icon" href=img/favicon.png>
