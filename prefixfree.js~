@@ -1,10 +1,9 @@
-	"use strict"
-;
-	/*
-	*PrefixFree 1.0.4
-	*@author Lea Verou
-	*MIT license
-	*/
+"use strict";
+/*
+ * PrefixFree 1.0.4
+ * @author Lea Verou
+ * MIT license
+*/
 (
 	function
 	(

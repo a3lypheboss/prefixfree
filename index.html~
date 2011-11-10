@@ -86,7 +86,7 @@
 			<DIV>Processes elements with a <CODE>style</CODE> attribute and adds a vendor prefix where needed
 			</DIV>
 		<LI>
-			<DIV>Takes care of <STRONG>new</STRONG> <CODE>&lt;link&gt;</CODE> or <CODE>&lt;style&gt;</CODE> elements,<CODE>style</CODE> attribute changes and CSSOM changes (<A href=#dynamic-dom>requires plugin</A>)
+			<DIV>Takes care of <STRONG>new</STRONG> <CODE>&lt;link&gt;</CODE> or <CODE>&lt;style&gt;</CODE> elements,<CODE>style</CODE> attribute changes and CSSOM changes (<A href=#dynamic-dom">requires plugin</A>)
 			</DIV>
 		<LI>
 			<DIV>

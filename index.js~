@@ -1,25 +1,23 @@
-	"use strict"
-;
-	/*Scripts for the demo page of -prefix-free*/
-	/*
-		//declare the function '$' in global context if script is not nested
-		//--with the argument 'id'
-		//--which returns an Element that matches by its value of the attribute 'id' the delivered value of the argument 'id' when the function will be called
-		//this is just a shorthand for the sake of not to write document.getElementById('myId') all the time you need to manipulate a specific element, to which the element identifiable by the id you want to call was assigned to
-	*/
-	this['$']
+/*Scripts for the demo page of -prefix-free*/
+/*
+	//declare the function '$' in global context if script is not nested
+	//--with the argument 'id'
+	//--which returns an Element that matches by its value of the attribute 'id' the delivered value of the argument 'id' when the function will be called
+	//this is just a shorthand for the sake of not to write document.getElementById('myId') all the time you need to manipulate a specific element, to which the element identifiable by the id you want to call was assigned to
+*/
+this['$']
 =
-	function
+function
+(id)
+{
+	return document.getElementById
 	(id)
-	{
-		return document.getElementById
-		(id)
-	}
-	/*
-		//this shorthand is lame;
-		//it should prove that the delivered id is of type 'string'
-		//because the DOM-method 'getelementById' needs the 'id' delivered as a 'string'
-	*/
+}
+/*
+	//this shorthand is lame;
+	//it should prove that the delivered id is of type 'string'
+	//because the DOM-method 'getelementById' needs the 'id' delivered as a 'string'
+*/
 ;
 (//declare immediately what is inside these brackets
 	function()
